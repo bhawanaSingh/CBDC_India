@@ -25,3 +25,7 @@ Figure 1: Direct Central Bank Digital Currency
 ```
 **(ii)** ***Indirect CBDC :*** 
 In the indirect CBDC model, the central bank creates and holds digital tokens. Still, intermediaries include commercial banks, are in charge of distributing these digital tokens, managing accounts and retail services for the end-users, as represented in Figure. 2. This model is similar to the current payment system and is sometimes known as the *two-layered/intermediary model*. The main difference is commercial banks request digital tokens from the central bank instead of end-users. This central bank manages the commercial bank’s account in its ledger to identify the digital tokens in circulation. The **advantage** of having this model is that it reduces the central bank load, encourages intermediaries to improve services for their customers, easy tracking of AML, fraudulent activities, etc.
+![Fig 2: Indirect CBDC](Images/IndirectCBDC.jpg) 
+```
+Figure 2: Indirect Central Bank Digital Currency
+```
