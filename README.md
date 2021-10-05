@@ -17,5 +17,11 @@ In token-based CBDC, an end-user requires a *digital wallet* to hold digital tok
 ## CBDC Architecture
 The CBDC architecture follows one of the available two implementation approaches: direct CBDC and indirect CBDC.  
 **(i)** ***Direct CBDC :***
-In direct CBDC design, the *central bank* operates the digital tokens payment system and offers retail services to the end-users. Therefore, it is also called *single-layered architecture*. Any end-user can open an account in the central bank to receive digital tokens, as illustrated in Fig. 1. The central bank itself maintains the ledger of all accounts and executes retail payments. Therefore, it has complete control over the issuance and circulation of digital tokens. On the other side, the **disadvantage** of having this model is the tremendous *workload*. The central bank needs to provide good services to individuals and implement government regulations to prevent AML and anti-fraud prevention on all accounts.
-![Direct CBDC](Images/directCBDC.jpg)
+In direct CBDC design, the *central bank* operates the digital tokens payment system and offers retail services to the end-users. Therefore, it is also called *single-layered architecture*. Any end-user can open an account in the central bank to receive digital tokens, as illustrated in Figure. 1. The central bank itself maintains the ledger of all accounts and executes retail payments. Therefore, it has complete control over the issuance and circulation of digital tokens. On the other side, the **disadvantage** of having this model is the tremendous *workload*. The central bank needs to provide good services to individuals and implement government regulations to prevent AML and anti-fraud prevention on all accounts.
+
+![Fig 1: Direct CBDC](Images/directCBDC.jpg) 
+```
+Figure 1: Direct Central Bank Digital Currency
+```
+**(ii)** ***Indirect CBDC :*** 
+In the indirect CBDC model, the central bank creates and holds digital tokens. Still, intermediaries include commercial banks, are in charge of distributing these digital tokens, managing accounts and retail services for the end-users, as represented in Figure. 2. This model is similar to the current payment system and is sometimes known as the *two-layered/intermediary model*. The main difference is commercial banks request digital tokens from the central bank instead of end-users. This central bank manages the commercial bank’s account in its ledger to identify the digital tokens in circulation. The **advantage** of having this model is that it reduces the central bank load, encourages intermediaries to improve services for their customers, easy tracking of AML, fraudulent activities, etc.
