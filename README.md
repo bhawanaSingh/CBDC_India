@@ -18,4 +18,4 @@ In token-based CBDC, an end-user requires a *digital wallet* to hold digital tok
 The CBDC architecture follows one of the available two implementation approaches: direct CBDC and indirect CBDC.  
 **(i)** ***Direct CBDC :***
 In direct CBDC design, the *central bank* operates the digital tokens payment system and offers retail services to the end-users. Therefore, it is also called *single-layered architecture*. Any end-user can open an account in the central bank to receive digital tokens, as illustrated in Fig. 1. The central bank itself maintains the ledger of all accounts and executes retail payments. Therefore, it has complete control over the issuance and circulation of digital tokens. On the other side, the **disadvantage** of having this model is the tremendous *workload*. The central bank needs to provide good services to individuals and implement government regulations to prevent AML and anti-fraud prevention on all accounts.
-![pilot]
+![Direct CBDC](https://github.com/bhawanaSingh/CBDC_India/commit/15ffaac4f24946d1022be49fc5544c1df52a17af#commitcomment-57521407)
