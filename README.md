@@ -9,8 +9,13 @@ The wholesale CBDC is for the authorized financial institutions that carry reser
 **(ii).** ***Retail CBDC :*** 
 On the other side, the retail CBDC is issued for the general *public* to purchase goods and services and send/receive digital tokens for fulfilling their routine demands. The idea of retail CBDC is to promote a *cashless society* to reduce cash printing costs and make payments outside of the banking system, similar to cash payment.
 ### B.) Account-based and Token-based CBDC
-In CBDC, the end-users can access the digital tokens using an account-based CBDC or token-based CBDC.   
-  **(i).** ***Account-based CBDC :*** 
+In CBDC, the end-users can access the digital tokens using an account-based CBDC or token-based CBDC.     
+**(i).** ***Account-based CBDC :*** 
 In account-based CBDC, the end-user opens an account with the third-party provider authorized by the central bank. Hence, the third-party provider is responsible for end-user *identity verification*, *know-your-customer (KYC)* process, *digital tokens distribution* from one account to another, and transaction’s approval, e.g., *commercial bank accounts*.   
 **(ii).** ***Token-based CBDC :*** 
 In token-based CBDC, an end-user requires a *digital wallet* to hold digital tokens accessed by a public/private key pair or digital signature. Therefore, the third-party provider approved the transaction based on the public/private key of the end-user. Also, a token-based CBDC may incorporate end-users identity to remove anonymity from the CBDC network, e.g., *cash* and *crypto coins* (i.e., bitcoin, ether, etc.).
+## CBDC Architecture
+The CBDC architecture follows one of the available two implementation approaches: direct CBDC and indirect CBDC.  
+**(i)** ***Direct CBDC :***
+In direct CBDC design, the *central bank* operates the digital tokens payment system and offers retail services to the end-users. Therefore, it is also called *single-layered architecture*. Any end-user can open an account in the central bank to receive digital tokens, as illustrated in Fig. 1. The central bank itself maintains the ledger of all accounts and executes retail payments. Therefore, it has complete control over the issuance and circulation of digital tokens. On the other side, the **disadvantage** of having this model is the tremendous *workload*. The central bank needs to provide good services to individuals and implement government regulations to prevent AML and anti-fraud prevention on all accounts.
+![pilot]
