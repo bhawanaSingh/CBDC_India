@@ -15,12 +15,14 @@ The central bank digital currency (CBDC) is gaining popularity for the last few 
 *The CBDC architecture follows one of the available two implementation approaches: direct CBDC and indirect CBDC.* 
 ### a.)	Direct CBDC
 *In direct CBDC design, the central bank operates the digital tokens payment system and offers retail services to the end-users. Therefore, it is also called single-layered architecture. Any end-user can open an account in the central bank to receive digital tokens, as illustrated in Fig. 1. The central bank itself maintains the ledger of all accounts and executes retail payments. Therefore, it has complete control over the issuance and circulation of digital tokens. On the other side, the disadvantage of having this model is the tremendous workload. The central bank needs to provide good services to individuals and implement government regulations to prevent AML and anti-fraud prevention on all accounts.*
+
 ![Fig 1: Direct CBDC](Images/directCBDC.jpg) 
 ```
 Figure 1: Direct Central Bank Digital Currency
 ```
 ### b.)	Indirect CBDC
 *In the indirect CBDC model, the central bank creates and holds digital tokens. Still, intermediaries include commercial banks, are in charge of distributing these digital tokens, managing accounts and retail services for the end-users, as represented in Fig. 2. This model is similar to the current payment system and is sometimes known as the two-layered/intermediary model. The main difference is commercial banks request digital tokens from the central bank instead of end-users. This central bank manages the commercial bank’s account in its ledger to identify the digital tokens in circulation. The advantage of having this model is that it reduces the central bank load, encourages intermediaries to improve services for their customers, easy tracking of AML, fraudulent activities, etc.*
+
 ![Fig 2: Indirect CBDC](Images/IndirectCBDC.jpg) 
 ```
 Figure 2: Indirect Central Bank Digital Currency
@@ -70,29 +72,29 @@ Figure 6: Transaction Flow
 *This proposed architecture has several advantages over the modern RTGS, IMPS, etc., currently used by the central bank. These advantages are, remove the single point of failure by proposed PBN for wholesale CBDC where the commercial banks can interact with each other without going through the existing intercharging settlement system (e.g., RTGS) with zero downtime. Scalability and cost are other factors that require attention. When the number of commercial banks increases, the transaction proposed by them also increases in the future, which requires extra staffing and adequate time for interbank settlement. Various smart contract logic is proposed to overcome the different mentioned issues, based on a software solution to fall down the overall system cost, and use permission blockchain environment aid to attain more transactions than the existing intercharging settlement system. The benefit of using the blockchain technology in the proposed distribution layer is, introduces transparency and trust among all banks by maintaining the distrusted immutable ledger. In the future, the proposed system architecture for CBDC can be improved by implementing the hybrid encryption cryptography for PBN to protect against various quantum computing attacks.*
 
 ### References ###
-[1]	C. S. Wright, “Bitcoin: A Peer-to-Peer Electronic Cash System,” SSRN Electron. J., pp. 1–9, 2019, doi: 10.2139/ssrn.3440802.
-[2]	V. Buterin, “A next-generation smart contract and decentralized application platform,” Etherum, no. January, pp. 1–36, 2014, [Online]. Available: http://buyxpr.com/build/pdfs/EthereumWhitePaper.pdf.
-[3]	B. Chase and E. MacBrough, “Analysis of the XRP Ledger Consensus Protocol,” pp. 1–25, 2018, [Online]. Available: http://arxiv.org/abs/1802.07242.
-[4]	R. Auer, G. Cornelli, and J. Frost, “Rise of the Central Bank Digital Currencies: Drivers, Approaches and Technologies,” CESifo Work. Pap., no. 8655, 2020.
-[5]	O. Ward and S. Rochemont, “An addendum to ‘ A Cashless Society- Benefits , Risks and Issues ( Interim paper )’ Understanding Central Bank Digital Currencies ( CBDC ) By Orla Ward Sabrina Rochemont,” no. March, pp. 1–52, 2019, [Online]. Available: https://www.actuaries.org.uk/system/files/field/document/Understanding CBDCs Final - disc.pdf.
-[6]	E. A. Opare and K. Kim, “Design Practices for Wholesale Central Bank Digital Currencies from the World,” 2020.
-[7]	J. Kiff et al., “A Survey of Research on Retail Central Bank Digital Currency,” IMF Work. Pap., vol. 20, no. 104, 2020, doi: 10.5089/9781513547787.001.
-[8]	“CBDC for retail, wholesale and international Payments | Accenture Banking Blog.” https://bankingblog.accenture.com/cbdc-retail-wholesale-international-payments.
-[9]	C. Barotini and H. Holden, “Proceeding with caution - a survey on central bank digital currency,” Bank Int. Settlements, vol. 101, no. 101, pp. 1–15, 2019.
-[10]	Deloitte, “Are Central Bank Digital Currencies the Money of Tomorrow?,” Deloitte, pp. 1–25, 2020, [Online]. Available: https://www2.deloitte.com/content/dam/Deloitte/lu/Documents/financial-services/Banking/lu-are-central-bank-digital-currencies.pdf.
-[11]	S. Li and Y. Huang, “The genesis, design and implications of China’s central bank digital currency,” China Econ. J., vol. 14, no. 1, pp. 67–77, 2021, doi: 10.1080/17538963.2020.1870273.
-[12]	M. K. Perianne Boring, “Blockchain: The Breakthrough Technology of the Decade and How China Is Leading the Way-An Industry White Paper,” 2019, [Online]. Available: https://www.bloomberg.
-[13]	Bank of England, “Central Bank Digital Currency Opportunities, challenges and design,” Bank Engl. Discuss. Pap., no. March, pp. 77–82, 2020.
-[14]	J. Chapman, R. Garratt, S. Hendry, and A. Mccormack, “Jasper: Are distributed wholesale payment systems feasible yet?,” Bank Canada Financ. Syst. Rev., vol. 2008, no. June 2017, pp. 1–11, 2017.
-[15]	“Working Papers- Central Bank of the Bahamas.” https://www.centralbankbahamas.com/publications/working-papers.
-[16]	KPMG, “A Global Look at Central Bank Digital Currencies,” Block Res., no. August, 2020.
-[17]	C. Rangarajan, “Report on currency and finance,” Reserv. Bank India, p. 55, 2008, [Online]. Available: https://www.rbi.org.in/scripts/PublicationsView.aspx?id=10494.
-[18]	D. T. Sasongko and S. Yazid, “Integrated DLT and non-DLT system design for central bank digital currency,” ACM Int. Conf. Proceeding Ser., pp. 171–176, 2020, doi: 10.1145/3427423.3427447.
-[19]	H. Sun, H. Mao, X. Bai, Z. Chen, K. Hu, and W. Yu, “Multi-blockchain model for central bank digital currency,” Parallel Distrib. Comput. Appl. Technol. PDCAT Proc., vol. 2017-Decem, pp. 360–367, 2018, doi: 10.1109/PDCAT.2017.00066.
-[20]	W. T. Tsai, Z. Zhao, C. Zhang, L. Yu, and E. Deng, “A multi-chain model for CBDC,” Proc. - 2018 5th Int. Conf. Dependable Syst. Their Appl. DSA 2018, pp. 25–34, Dec. 2018, doi: 10.1109/DSA.2018.00016.
-[21]	X. Han, Y. Yuan, and F. Y. Wang, “A Blockchain-based Framework for Central Bank Digital Currency,” Proc. - IEEE Int. Conf. Serv. Oper. Logist. Informatics 2019, SOLI 2019, pp. 263–268, Nov. 2019, doi: 10.1109/SOLI48380.2019.8955032.
-[22]	D. Chaum, C. Grothoff, and T. Moser, “How to issue a central bank digital currency,” 2021.
-[23]	Y. Xiao, N. Zhang, W. Lou, and Y. T. Hou, “A Survey of Distributed Consensus Protocols for Blockchain Networks,” IEEE Commun. Surv. Tutorials, vol. 22, no. 2, pp. 1432–1465, Apr. 2020, doi: 10.1109/COMST.2020.2969706.
-[24]	“Hyperledger Fabric – Hyperledger.” https://www.hyperledger.org/use/fabric.
-[25]	“White Paper | Diem Association.” https://www.diem.com/en-us/white-paper/#introduction.
-[26]	“PayPal Wants to Be a CBDC Distributor - CoinDesk.” https://www.coindesk.com/paypal-wants-to-be-a-cbdc-distributor.
+[1]	C. S. Wright, “Bitcoin: A Peer-to-Peer Electronic Cash System,” SSRN Electron. J., pp. 1–9, 2019, doi: 10.2139/ssrn.3440802.  
+[2]	V. Buterin, “A next-generation smart contract and decentralized application platform,” Etherum, no. January, pp. 1–36, 2014, [Online]. Available: http://buyxpr.com/build/pdfs/EthereumWhitePaper.pdf.  
+[3]	B. Chase and E. MacBrough, “Analysis of the XRP Ledger Consensus Protocol,” pp. 1–25, 2018, [Online]. Available: http://arxiv.org/abs/1802.07242.  
+[4]	R. Auer, G. Cornelli, and J. Frost, “Rise of the Central Bank Digital Currencies: Drivers, Approaches and Technologies,” CESifo Work. Pap., no. 8655, 2020.  
+[5]	O. Ward and S. Rochemont, “An addendum to ‘ A Cashless Society- Benefits , Risks and Issues ( Interim paper )’ Understanding Central Bank Digital Currencies ( CBDC ) By Orla Ward Sabrina Rochemont,” no. March, pp. 1–52, 2019, [Online]. Available: https://www.actuaries.org.uk/system/files/field/document/Understanding CBDCs Final - disc.pdf.  
+[6]	E. A. Opare and K. Kim, “Design Practices for Wholesale Central Bank Digital Currencies from the World,” 2020.  
+[7]	J. Kiff et al., “A Survey of Research on Retail Central Bank Digital Currency,” IMF Work. Pap., vol. 20, no. 104, 2020, doi: 10.5089/9781513547787.001.  
+[8]	“CBDC for retail, wholesale and international Payments | Accenture Banking Blog.” https://bankingblog.accenture.com/cbdc-retail-wholesale-international-payments.  
+[9]	C. Barotini and H. Holden, “Proceeding with caution - a survey on central bank digital currency,” Bank Int. Settlements, vol. 101, no. 101, pp. 1–15, 2019.  
+[10]	Deloitte, “Are Central Bank Digital Currencies the Money of Tomorrow?,” Deloitte, pp. 1–25, 2020, [Online]. Available: https://www2.deloitte.com/content/dam/Deloitte/lu/Documents/financial-services/Banking/lu-are-central-bank-digital-currencies.pdf.  
+[11]	S. Li and Y. Huang, “The genesis, design and implications of China’s central bank digital currency,” China Econ. J., vol. 14, no. 1, pp. 67–77, 2021, doi: 10.1080/17538963.2020.1870273.  
+[12]	M. K. Perianne Boring, “Blockchain: The Breakthrough Technology of the Decade and How China Is Leading the Way-An Industry White Paper,” 2019, [Online]. Available: https://www.bloomberg.  
+[13]	Bank of England, “Central Bank Digital Currency Opportunities, challenges and design,” Bank Engl. Discuss. Pap., no. March, pp. 77–82, 2020.  
+[14]	J. Chapman, R. Garratt, S. Hendry, and A. Mccormack, “Jasper: Are distributed wholesale payment systems feasible yet?,” Bank Canada Financ. Syst. Rev., vol. 2008, no. June 2017, pp. 1–11, 2017.  
+[15]	“Working Papers- Central Bank of the Bahamas.” https://www.centralbankbahamas.com/publications/working-papers.  
+[16]	KPMG, “A Global Look at Central Bank Digital Currencies,” Block Res., no. August, 2020.  
+[17]	C. Rangarajan, “Report on currency and finance,” Reserv. Bank India, p. 55, 2008, [Online]. Available: https://www.rbi.org.in/scripts/PublicationsView.aspx?id=10494.  
+[18]	D. T. Sasongko and S. Yazid, “Integrated DLT and non-DLT system design for central bank digital currency,” ACM Int. Conf. Proceeding Ser., pp. 171–176, 2020, doi: 10.1145/3427423.3427447.  
+[19]	H. Sun, H. Mao, X. Bai, Z. Chen, K. Hu, and W. Yu, “Multi-blockchain model for central bank digital currency,” Parallel Distrib. Comput. Appl. Technol. PDCAT Proc., vol. 2017-Decem, pp. 360–367, 2018, doi: 10.1109/PDCAT.2017.00066.  
+[20]	W. T. Tsai, Z. Zhao, C. Zhang, L. Yu, and E. Deng, “A multi-chain model for CBDC,” Proc. - 2018 5th Int. Conf. Dependable Syst. Their Appl. DSA 2018, pp. 25–34, Dec. 2018, doi: 10.1109/DSA.2018.00016.  
+[21]	X. Han, Y. Yuan, and F. Y. Wang, “A Blockchain-based Framework for Central Bank Digital Currency,” Proc. - IEEE Int. Conf. Serv. Oper. Logist. Informatics 2019, SOLI 2019, pp. 263–268, Nov. 2019, doi: 10.1109/SOLI48380.2019.8955032.  
+[22]	D. Chaum, C. Grothoff, and T. Moser, “How to issue a central bank digital currency,” 2021.  
+[23]	Y. Xiao, N. Zhang, W. Lou, and Y. T. Hou, “A Survey of Distributed Consensus Protocols for Blockchain Networks,” IEEE Commun. Surv. Tutorials, vol. 22, no. 2, pp. 1432–1465, Apr. 2020, doi: 10.1109/COMST.2020.2969706.  
+[24]	“Hyperledger Fabric – Hyperledger.” https://www.hyperledger.org/use/fabric.  
+[25]	“White Paper | Diem Association.” https://www.diem.com/en-us/white-paper/#introduction.  
+[26]	“PayPal Wants to Be a CBDC Distributor - CoinDesk.” https://www.coindesk.com/paypal-wants-to-be-a-cbdc-distributor.  
