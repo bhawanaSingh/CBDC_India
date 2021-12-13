@@ -43,7 +43,7 @@ The commercial bank calls the registration of commercial bank smart contract and
 
 ![Fig 4: smart contract](Images/smartcontract.jpg) 
 ```
-Figure 5: Smart Contracts
+Figure 4: Smart Contracts
 ```
 
 ### B.) User Layer ###
